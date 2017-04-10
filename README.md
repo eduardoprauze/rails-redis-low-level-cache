@@ -1,24 +1,13 @@
-# README
+Simple exemple of low level caching in Rails with Redis as cache store (readthis)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After creating and migrating the database, use the command `rake db:seed` to easily populate it with fake data.    
 
-Things you may want to cover:
+Useful links:
 
-* Ruby version
+* [Caching with Rails](http://guides.rubyonrails.org/caching_with_rails.html)
 
-* System dependencies
+* [Redis](https://redis.io/)
 
-* Configuration
+* [Readthis](https://github.com/sorentwo/readthis)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [Hiredis](https://github.com/redis/hiredis)
